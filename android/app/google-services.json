@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "937392167477",
+    "project_id": "hippodrome-app-flutter",
+    "storage_bucket": "hippodrome-app-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937392167477:android:5405c917cafd0feb106f7c",
+        "android_client_info": {
+          "package_name": "com.jirayu.flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937392167477-qvfe957d626obsgub93b7458m0t4gfhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2LMn5_94Er2X2JpnJe5fnp6D6_rJQ6V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937392167477-qvfe957d626obsgub93b7458m0t4gfhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

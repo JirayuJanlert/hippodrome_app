@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "Model": true
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
