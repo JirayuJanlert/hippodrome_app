@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hippodrome_app/services/auth/bloc/auth_bloc.dart';
 
 // final FirebaseAuth _auth = FirebaseAuth.instance;
 // GoogleSignIn _googleSignIn ;
@@ -46,8 +48,9 @@ class _LoginViewState extends State<LoginView> {
                 const Text("Don't Have an Account?"),
                 GestureDetector(
                   onTap: () {
-                    // Navigator.pushReplacement(context,
-                    //     MaterialPageRoute(builder: (context) => SignupPage()));
+                    context
+                        .read<AuthBloc>()
+                        .add(const AuthEventShouldRegister());
                   },
                   child: const Text(
                     "  SignUp",
